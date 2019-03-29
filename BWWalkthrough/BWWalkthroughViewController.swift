@@ -176,7 +176,7 @@ import UIKit
     /// Add a new page to the walkthrough.
     /// To have information about the current position of the page in the walkthrough add a UIViewController which implements BWWalkthroughPage
     /// - viewController: The view controller that will be added at the end of the view controllers list.
-    open func add(viewController:UIViewController)->Void{
+    @objc open func add(viewController:UIViewController)->Void{
         
         controllers.append(viewController)
         
