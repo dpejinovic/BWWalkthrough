@@ -54,7 +54,7 @@ import UIKit
     
     // MARK: - Public properties -
     
-    weak open var delegate:BWWalkthroughViewControllerDelegate?
+    @objc weak open var delegate:BWWalkthroughViewControllerDelegate?
     
     // If you need a page control, next or prev buttons, add them via IB and connect with these Outlets
     @IBOutlet open var pageControl:UIPageControl?
